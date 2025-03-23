@@ -19,5 +19,7 @@ python client_xxx.py path/to/build/index.js # node服务器
 ```
 # 注意事项
 并不是所有的模型都可以调用MCP
+
 使用client_openai.py，只要是第三方的api是兼容openai格式的基本上是可以使用，但是要看所提供的模型是否支持函数调用
+
 使用client_ollama.py，你本地运行的模型只要是在[ollama模型库](https://registry.ollama.ai/search)中指出**tools**就是支持函数调用
